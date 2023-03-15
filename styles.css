@@ -1,0 +1,53 @@
+.col-lg-3
+{
+    width: 30%;
+    height: 400px;
+    background: #888383;
+}
+#col1, #col2, #col4, #col5{
+    margin-right: 5%;
+}
+
+#header1{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+h2{
+    position: relative;
+    right: 0%;
+    top: 0%;
+    border-style: solid;
+    text-align: right;
+    width: fit-content;
+
+}
+#h21{
+    background: #e88054;
+
+    
+}
+#h22{
+    background: red;
+}
+#h23{ 
+    background: #eae55c;
+}
+#newh2{
+    border-style: solid;
+    border-color: #000;
+    size: 4px;
+    width: fit-content;
+    background: red;
+}
+/**For Large Device**/
+@media (min-width:1200px) {
+ 
+ }
+ /**For Medium Device**/
+ @media (min-width=800px) and (max-width=1199) {
+     .row{
+         background: rgb(19, 185, 44);
+     }
+ }

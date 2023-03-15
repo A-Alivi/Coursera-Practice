@@ -1,0 +1,13 @@
+import serial
+import time
+
+ser = serial.Serial('/dev/ttyUSB0', 115200) # replace 'COM3' with the appropriate port for your ESP8266 device
+
+ser.write(b'Hello, ESP8266!') #followed by a newline character
+
+#time.sleep(1) # wait for 1 second to allow time for the ESP8266 to process the command
+
+#response = ser.readline().strip() # read a line of data from the serial connection and strip any whitespace
+
+#print(response)
+ser.close()
